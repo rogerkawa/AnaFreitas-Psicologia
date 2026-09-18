@@ -11,23 +11,25 @@
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap"
     rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
   <link rel="icon" type="image/svg+xml"
     href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2324432f'/%3E%3Cpath d='M32 49V22m0 8c-9 0-13-6-13-13 8 0 13 5 13 13Zm0 8c10 0 15-6 15-14-9 0-15 6-15 14Z' fill='none' stroke='%23f5eee5' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="style/styles.css">
+  <script src="script/script.js" defer></script>
 </head>
 
 <body>
   <header class="header">
-    <a class="brand" href="#inicio" aria-label="Ir ao início">
-      <span class="brand-mark">❧</span><span><strong>Ana Freitas</strong><small>PSICÓLOGA</small></span>
+    <a class="brand brand-logo" href="#inicio" aria-label="Ana Freitas Psicóloga — ir ao início">
+      <img src="assets/logo-ana-freitas.png" alt="Ana Freitas — Psicóloga Clínica, CRP 22/07615">
     </a>
     <button class="menu-button" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
     <nav class="nav" aria-label="Navegação principal">
       <a class="active" href="#inicio">Início</a><a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a
         href="#depoimentos">Depoimentos</a><a href="#localizacao">Localização</a><a href="#contato">Contato</a>
     </nav>
-    <a class="button button-small desktop-cta" href="https://wa.me/5598984188228" target="_blank" rel="noopener">✆
-      &nbsp;Agende sua consulta</a>
+    <a class="button button-small desktop-cta" href="https://wa.me/5598984188228" target="_blank" rel="noopener"><i
+        class="bi bi-whatsapp" aria-hidden="true"></i> Agende sua consulta</a>
   </header>
 
   <main>
@@ -37,19 +39,18 @@
         <h1 class="hero-animate">Você importa.<br>E a sua história também.</h1>
         <p class="hero-copy hero-animate">Um espaço seguro para você se escutar, se entender e construir uma vida com
           mais equilíbrio, bem-estar e sentido.</p>
-        <a class="button hero-animate" href="https://wa.me/5598984188228" target="_blank" rel="noopener">✆ &nbsp;Agende
-          sua consulta</a>
+        <a class="button hero-animate" href="https://wa.me/5598984188228" target="_blank" rel="noopener"><i
+            class="bi bi-whatsapp" aria-hidden="true"></i> Agende sua consulta</a>
         <div class="trust-row hero-animate">
-          <span>♡ <small>Atendimento<br>humanizado</small></span>
-          <span>▣ <small>Sigilo e ética<br>profissional</small></span>
-          <span>♧ <small>Seu bem-estar<br>em primeiro lugar</small></span>
+          <span><i class="bi bi-heart" aria-hidden="true"></i><small>Atendimento<br>humanizado</small></span>
+          <span><i class="bi bi-shield-lock" aria-hidden="true"></i><small>Sigilo e ética<br>profissional</small></span>
+          <span><i class="bi bi-flower1" aria-hidden="true"></i><small>Seu bem-estar<br>em primeiro lugar</small></span>
         </div>
       </div>
       <div class="hero-image-wrap">
         <div class="soft-orbit"></div>
         <img class="hero-image" src="assets/consultorio.jpeg" alt="Consultório de psicologia acolhedor">
-        <blockquote>“Cuidar da sua mente é também cuidar do seu futuro.”</blockquote>
-        <span class="hand-note">Aqui é um<br>espaço para você ♡</span>
+        <span class="hand-note">Aqui é um<br>espaço para você <i class="bi bi-heart" aria-hidden="true"></i></span>
       </div>
     </section>
 
@@ -59,27 +60,27 @@
         <p>Acompanhamento psicológico para diferentes fases e desafios da vida.</p>
       </div>
       <div class="service-grid">
-        <article class="service-card"><span>◌</span>
+        <article class="service-card"><span><i class="bi bi-activity" aria-hidden="true"></i></span>
           <h3>Ansiedade</h3>
           <p>Aprenda a lidar com os pensamentos e recupere a tranquilidade.</p>
         </article>
-        <article class="service-card"><span>♡</span>
+        <article class="service-card"><span><i class="bi bi-person-heart" aria-hidden="true"></i></span>
           <h3>Autoconhecimento</h3>
           <p>Conheça-se com profundidade e descubra novas possibilidades.</p>
         </article>
-        <article class="service-card"><span>✾</span>
+        <article class="service-card"><span><i class="bi bi-cloud-rain" aria-hidden="true"></i></span>
           <h3>Depressão</h3>
           <p>Um olhar acolhedor para enfrentar momentos difíceis.</p>
         </article>
-        <article class="service-card"><span>♙</span>
+        <article class="service-card"><span><i class="bi bi-people" aria-hidden="true"></i></span>
           <h3>Relacionamentos</h3>
           <p>Desenvolva relações mais saudáveis e satisfatórias.</p>
         </article>
-        <article class="service-card"><span>▢</span>
+        <article class="service-card"><span><i class="bi bi-briefcase" aria-hidden="true"></i></span>
           <h3>Vida profissional</h3>
           <p>Encontre equilíbrio entre objetivos, rotina e saúde mental.</p>
         </article>
-        <article class="service-card"><span>⌁</span>
+        <article class="service-card"><span><i class="bi bi-chat-heart" aria-hidden="true"></i></span>
           <h3>Outras demandas</h3>
           <p>Cada história é única. Vamos conversar sobre a sua?</p>
         </article>
@@ -92,16 +93,21 @@
       <div class="about-copy reveal">
         <p class="eyebrow">Sobre mim</p>
         <h2>Prazer, sou<br>Ana Freitas</h2>
-        <p>Sou Ana Freitas, psicóloga apaixonada por pessoas e pelo poder que a escuta tem de transformar vidas.
-          Acredito em um processo terapêutico baseado no respeito, na ética e no acolhimento, sempre adaptado às suas
-          necessidades e ao seu ritmo.</p>
-        <a class="text-link" href="#contato">Conheça mais sobre meu trabalho <span>→</span></a>
+        <p>Sou Ana Freitas, Psicóloga Clínica — CRP 22/07615, apaixonada por pessoas e pelo poder que a escuta tem de
+          transformar vidas. Acredito em um processo terapêutico baseado no respeito, na ética e no acolhimento, sempre
+          adaptado às suas necessidades e ao seu ritmo.</p>
+        <a class="text-link" href="#contato">Conheça mais sobre meu trabalho <span><i class="bi bi-arrow-right"
+              aria-hidden="true"></i></span></a>
       </div>
       <ul class="credentials reveal-right">
-        <li><b>◇</b><span><strong>Formação sólida</strong>e atualizada</span></li>
-        <li><b>♡</b><span><strong>Abordagem baseada</strong>em evidências</span></li>
-        <li><b>♙</b><span><strong>Atendimento individual</strong>adolescentes, adultos e idosos</span></li>
-        <li><b>⌁</b><span><strong>Ambiente seguro</strong>e acolhedor</span></li>
+        <li><b><i class="bi bi-mortarboard" aria-hidden="true"></i></b><span><strong>Psicóloga Clínica</strong>CRP
+            22/07615</span></li>
+        <li><b><i class="bi bi-journal-check" aria-hidden="true"></i></b><span><strong>Abordagem baseada</strong>em
+            análise de comportamentos</span></li>
+        <li><b><i class="bi bi-person-check" aria-hidden="true"></i></b><span><strong>Atendimento
+              individual</strong>adolescentes e adultos</span></li>
+        <li><b><i class="bi bi-house-heart" aria-hidden="true"></i></b><span><strong>Ambiente seguro</strong>e
+            acolhedor</span></li>
       </ul>
     </section>
 
@@ -111,16 +117,16 @@
         <p class="eyebrow">O que a terapia pode cultivar</p>
         <h2>Mais do que terapia, um espaço para você florescer.</h2>
         <div class="benefit-grid">
-          <div><span>☼</span>
+          <div><span><i class="bi bi-emoji-smile" aria-hidden="true"></i></span>
             <p>Mais bem-estar<br>no dia a dia</p>
           </div>
-          <div><span>✦</span>
+          <div><span><i class="bi bi-sun" aria-hidden="true"></i></span>
             <p>Autoconfiança<br>para novas escolhas</p>
           </div>
-          <div><span>⌁</span>
+          <div><span><i class="bi bi-feather" aria-hidden="true"></i></span>
             <p>Equilíbrio emocional<br>para lidar com desafios</p>
           </div>
-          <div><span>♡</span>
+          <div><span><i class="bi bi-heart" aria-hidden="true"></i></span>
             <p>Uma vida mais leve<br>e com mais sentido</p>
           </div>
         </div>
@@ -134,19 +140,23 @@
       </div>
       <div class="testimonial-grid">
         <figure class="testimonial">
-          <blockquote>“A terapia me ajudou a me reconectar comigo mesma. Hoje me sinto mais leve e segura para enfrentar
-            os desafios.”</blockquote>
-          <figcaption>Mariana S. <span>★★★★★</span></figcaption>
+          <blockquote>“Excelente profissional. Destaco a pontualidade, a postura ética e a clareza na condução das sessões. O processo de terapia tem me ajudado muito a desenvolver o autoconhecimento e a lidar com a ansiedade de forma mais leve.”</blockquote>
+          <figcaption>Andrea Coutinho <span aria-label="5 estrelas"><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i></span></figcaption>
         </figure>
         <figure class="testimonial">
-          <blockquote>“Profissional extremamente atenciosa, acolhedora e competente. Me sinto ouvida e respeitada em
-            todas as sessões.”</blockquote>
-          <figcaption>Lucas R. <span>★★★★★</span></figcaption>
+          <blockquote>“Eita, q alegria ter encontrado esse lugar e essa pessoa para me acolher no momento bem delicado da minha vida. Gratidão sempre.
+E sendo online, ficou ainda melhor, fico bem a vontade.”</blockquote>
+          <figcaption>Rosa Tereza Carvalho de Freitas <span aria-label="5 estrelas"><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i></span></figcaption>
         </figure>
         <figure class="testimonial">
-          <blockquote>“Foi um divisor de águas na minha vida. Consegui lidar melhor com minha ansiedade e hoje vivo com
-            mais equilíbrio.”</blockquote>
-          <figcaption>Camila T. <span>★★★★★</span></figcaption>
+          <blockquote>“Experiência ótima! Profissional excelente, com uma escuta humanizada e que de fato veste a camisa da profissão! Recomendo muito.”</blockquote>
+          <figcaption>Elayne Lima <span aria-label="5 estrelas"><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                class="bi bi-star-fill"></i></span></figcaption>
         </figure>
       </div>
     </section>
@@ -160,9 +170,9 @@
         <div class="location-actions">
           <a class="button"
             href="https://www.google.com/maps/search/?api=1&query=Rua+Gen%C3%A9sio+Rego%2C+Monte+Castelo%2C+S%C3%A3o+Lu%C3%ADs+-+MA%2C+65030-650%2C+Brasil"
-            target="_blank" rel="noopener">Abrir no Google Maps</a>
-          <a class="instagram-link" href="https://instagram.com/psi__anafreitas" target="_blank"
-            rel="noopener">@psi__anafreitas</a>
+            target="_blank" rel="noopener"><i class="bi bi-geo-alt" aria-hidden="true"></i> Abrir no Google Maps</a>
+          <a class="instagram-link" href="https://instagram.com/anafreitas.clinica" target="_blank" rel="noopener"><i
+              class="bi bi-instagram" aria-hidden="true"></i> @anafreitas.clinica
         </div>
       </div>
       <div class="map-wrap reveal-right">
@@ -173,27 +183,30 @@
     </section>
 
     <section class="cta" id="contato">
-      <div class="cta-image"><img src="assets/consultorio.jpeg" alt="Espaço de atendimento"></div>
+      <div class="cta-image"><img src="assets/anaFreitas.jpeg" alt="Espaço de atendimento"></div>
       <div class="cta-copy reveal">
         <p class="eyebrow">Seu primeiro passo</p>
         <h2>Dê o primeiro passo para uma vida mais leve.</h2>
         <p>Agende sua consulta e comece hoje a cuidar de você.</p><a class="button" href="https://wa.me/5598984188228"
-          target="_blank" rel="noopener">✆ &nbsp;Falar no WhatsApp</a>
+          target="_blank" rel="noopener"><i class="bi bi-whatsapp" aria-hidden="true"></i> Falar no WhatsApp</a>
       </div>
-      <p class="cta-note">Cuidar de você<br>também é um ato<br>de coragem. ♡</p>
+      <p class="cta-note">Cuidar de você<br>também é um ato<br>de coragem. <i class="bi bi-heart"
+          aria-hidden="true"></i></p>
     </section>
   </main>
 
-  <footer><a class="brand" href="#inicio"><span class="brand-mark">❧</span><span><strong>Ana
-          Freitas</strong><small>PSICÓLOGA</small></span></a>
-    <div class="footer-contact"><a href="https://instagram.com/psi__anafreitas" target="_blank"
-        rel="noopener">@psi__anafreitas</a><a href="tel:+5598984188228">(98) 9 8418-8228</a></div>
+  <footer><a class="brand brand-logo footer-logo" href="#inicio"
+      aria-label="Ana Freitas Psicóloga — voltar ao início"><img src="assets/logo-ana-freitas.png"
+        alt="Ana Freitas — Psicóloga Clínica, CRP 22/07615"></a>
+    <div class="footer-contact"><a href="https://instagram.com/anafreitas.clinica" target="_blank"
+        rel="noopener">@anafreitas.clinica</a><a href="tel:+5598984188228">(98) 9 8418-8228</a><span>CRP 22/07615</span>
+    </div>
     <p>Uma mente mais saudável<br>constrói um amanhã melhor.</p>
     <p class="copyright">© 2026 Ana Freitas • Todos os direitos reservados</p>
   </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-  <script src="script/script.js"></script>
+  
 </body>
 
 </html>
